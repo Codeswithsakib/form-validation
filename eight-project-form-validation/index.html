@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="title">
+    <meta name="description" content="description">
+    <meta name="keywords" content="keywords">
+    <meta name="author" content="Your Name or Company Name">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <title>Form Validation</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <!-- font links -->
+    <!-- css links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <form action="#" class="needs-validation" novalidate>
+  <div class="mb-3">
+    <label for="name" class="form-label">Enter your first name</label>
+    <input type="text" class="form-control name" id="name" placeholder="Enter your first name" required>
+    <div class="valid-feedback">
+      Great!
+    </div>
+    <div class="invalid-feedback">
+      Enter your first name.
+    </div>
+  </div>
+  <div class="mb-3">
+    <label for="email" class="form-label">Enter your email</label>
+    <input type="email" class="form-control email" id="email" placeholder="Please enter your email" required>
+    <div class="valid-feedback">
+      Great!
+    </div>
+    <div class="invalid-feedback">
+      Enter your email.
+    </div>
+  </div>
+  <div class="mb-3">
+    <label for="password" class="form-label">Enter your password</label>
+    <input type="password" class="form-control password" id="password" placeholder="Please enter your passsword" required>
+    <div class="valid-feedback">
+      Great!
+    </div>
+    <div class="invalid-feedback">
+      Enter your password.
+    </div>
+  </div>
+  <div class="col-12">
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </div>
+  </div>
+</form>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
